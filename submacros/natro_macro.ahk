@@ -1,4 +1,4 @@
-/*
+﻿/*
 Natro Macro (https://github.com/NatroTeam/NatroMacro)
 Copyright © Natro Team (https://github.com/NatroTeam)
 
@@ -18342,7 +18342,7 @@ nm_locateVB(){
 
 	for data in VBData
 	{
-		if !data.enabled || data.bees > HiveBees
+		if !data.enabled || data.bees >= HiveBees
 			continue
 		; This is built into the game
 		if (nowUnix() - VBStart) > 300
